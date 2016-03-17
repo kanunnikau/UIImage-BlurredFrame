@@ -1,21 +1,21 @@
 Pod::Spec.new do |s|
 
   s.name         = "UIImage+BlurredFrame"
-  s.version      = "0.0.4"
+  s.version      = "0.0.1"
   s.summary      = "UIImage+BlurredFrame is a UIImage category that blurs an specified frame of a UIImage"
 
   s.description  = <<-DESC
-                    UIImage+BlurredFrame is a UIImage category that blurs an specified frame of a UIImage
+                    UIImage+BlurredFrame is a UIImage category that blurs an specified frame of a UIImage. Forked from Adrian2112/UIImage-BlurredFrame
                    DESC
 
-  s.homepage     = "https://github.com/Adrian2112/UIImage-BlurredFrame"
+  s.homepage     = "https://github.com/kanunnikau/UIImage-BlurredFrame"
   s.license      = 'MIT'
 
   s.author       = { "Adrian Gonzalez" => "bernardogzzf@gmail.com" }
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/Adrian2112/UIImage-BlurredFrame.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/kanunnikau/UIImage-BlurredFrame.git", :tag => "0.0.1" }
 
   s.source_files  = '*.{h,m}'
 
